@@ -29,7 +29,7 @@ http.createServer(function (request, response) {
 }).listen(8080);
 
 // Console will print the message
-console.log('Server running at http://1.9.7.3:8080/');
+console.log('Server running at http://127.0.0.1:8080/');
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
